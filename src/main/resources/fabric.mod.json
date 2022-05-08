@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "project-fabricated",
+  "version": "${version}",
+  "name": "Project Fabricated",
+  "description": "",
+  "authors": [
+    "Project Fabricated Team"
+  ],
+  "accessWidener": "projectfabricated.accesswidener",
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/project-fabricated/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "mm:early_risers": [
+      "io.github.simplycmd.projectfabricated.util.asm.FabricASM"
+    ],
+    "client": [
+      "io.github.simplycmd.projectfabricated.ProjectFabricated"
+    ],
+    "main": [
+      "io.github.simplycmd.projectfabricated.ProjectFabricated"
+    ],
+    "modmenu": [
+      "io.github.simplycmd.projectfabricated.config.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "project-fabricated.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}

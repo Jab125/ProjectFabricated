@@ -1,0 +1,12 @@
+{
+  "project.fabricated.title": "Project Fabricated",
+
+  "project.fabricated.config.config": "Config",
+  "project.fabricated.config.core": "Core",
+  "project.fabricated.config.camping": "Camping",
+
+  "project.fabricated.reload": "Reload",
+  "project.fabricated.config.modules_selection": "Modules Selection",
+
+  "project.fabricated.config.modules_selection.restart_minecraft": "Restart Minecraft to apply any changes."
+}
